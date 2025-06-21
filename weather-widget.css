@@ -1,0 +1,97 @@
+/* Container Styles */
+.weather-forecast-container,
+.weather-daily-forecast {
+    display: flex;
+    overflow-x: auto;
+    margin: 20px 0;
+    padding: 10px 0;
+    gap: 15px;
+    flex-wrap: nowrap;
+    scrollbar-width: thin;
+    -ms-overflow-style: -ms-autohiding-scrollbar;
+}
+
+/* Scrollbar-Styling für Webkit-Browser */
+.weather-forecast-container::-webkit-scrollbar,
+.weather-daily-forecast::-webkit-scrollbar {
+    height: 8px;
+}
+
+.weather-forecast-container::-webkit-scrollbar-track,
+.weather-daily-forecast::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+.weather-forecast-container::-webkit-scrollbar-thumb,
+.weather-daily-forecast::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 4px;
+}
+
+/* Gemeinsame Item Styles */
+.weather-forecast-item,
+.weather-daily-item {
+    flex: 0 0 150px;
+    width: 150px;
+    min-width: 150px;
+    max-width: 150px;
+    box-sizing: border-box;
+    text-align: center;
+    padding: 10px;
+    border-radius: 8px;
+    flex-shrink: 0;
+}
+
+/* Spezifische Styles für Forecast Items */
+.weather-forecast-item, .weather-daily-item {
+    border: 1px solid var(--main-color);
+}
+
+.forecast-date {
+    font-size: 0.9em;
+    margin-bottom: 5px;
+}
+
+.forecast-icon {
+    font-size: 24px;
+    margin: 5px 0;
+}
+
+.forecast-temp {
+    font-weight: bold;
+    margin: 5px 0;
+}
+
+.forecast-desc {
+    font-size: 0.8em;
+    margin: 5px 0;
+}
+
+.forecast-details {
+    font-size: 0.8em;
+    color: #666;
+    margin-top: 5px;
+}
+
+/* Spezifische Styles für Daily Items */
+.weather-daily-item {
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.weather-daily-date {
+    font-size: 0.9em;
+    margin: 0 0 5px 0;
+    color: #666;
+}
+
+.weather-daily-icon {
+    font-size: 2em;
+    margin: 5px 0;
+    display: block;
+}
+
+.weather-daily-temp {
+    font-size: 1em;
+    margin: 5px 0 0 0;
+    font-weight: bold;
+}
