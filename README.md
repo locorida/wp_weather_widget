@@ -11,7 +11,7 @@ Ein erweitertes Wettervorhersage-Widget für WordPress, das aktuelle Wetterdaten
 - Mehrtägige Wettervorhersage mit Accordions
 - Stundenweise Vorschau für den aktuellen Tag
 - Integration von Wetterwarnungen des Deutschen Wetterdienstes (DWD)
-- Verwendung von Weather Icons [https://github.com/erikflowers/weather-icons]
+- Verwendung von [Weather Icons](https://github.com/erikflowers/weather-icons)
 - Vollständig konfigurierbar über das WordPress-Backend
 
 ## 🛠️ Installation
