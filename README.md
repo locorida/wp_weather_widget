@@ -67,7 +67,7 @@ Der Haupt-Plugin-Code befindet sich in der Datei `wettervorhersage-widget.php`.
 ## 👤 Autor
 
 **Matthias Max**  
-[GitHub Profil]([https://github.com/](https://github.com/locorida))
+[GitHub Profil](https://github.com/locorida)
 
 ## 📄 Lizenz
 
