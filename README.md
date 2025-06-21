@@ -34,7 +34,7 @@ Im Widget selbst kannst du folgende Optionen festlegen:
 ## 📦 Voraussetzungen
 
 - PHP 7.4 oder höher
-- WordPress 5.5 oder höher
+- WordPress 6.1 oder höher
 - Ein kostenloser API-Key von [OpenWeatherMap](https://openweathermap.org/appid)
 
 ## 🌐 APIs genutzt
@@ -44,7 +44,9 @@ Im Widget selbst kannst du folgende Optionen festlegen:
 
 ## 📷 Screenshots
 
-_coming soon…_
+![{F7B2F77A-4AD0-4CA4-975F-2B27841821A8}](https://github.com/user-attachments/assets/434f3ca4-8992-4357-b99b-a5f4488c5de6)
+![{313F6D85-0F8D-4557-8D4F-9D6AE60BF648}](https://github.com/user-attachments/assets/18aa9f08-dc4e-49f9-85ff-7d4cb9905bdf)
+
 
 ## 🚀 Entwicklung
 
