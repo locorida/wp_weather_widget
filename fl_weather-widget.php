@@ -1,9 +1,10 @@
 <?php
 /*
-Plugin Name: Wettervorhersage Widget
-Description: Ein erweitertes Wettervorhersage-Widget mit der OpenWeatherMap API, das auch Vorhersagen für mehrere Tage und grafische Icons anzeigt.
-Version: 1.7
-Author: Matthias Max
+    Plugin Name: Wettervorhersage Widget
+    Description: Ein erweitertes Wettervorhersage-Widget mit der OpenWeatherMap API, das auch Vorhersagen für mehrere Tage und grafische Icons anzeigt.
+    Version: 1.7
+    Author: Matthias Max
+    Author URI: https://github.com/locorida
 */
 
 class FL_WeatherWidget extends WP_Widget
